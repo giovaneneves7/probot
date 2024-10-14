@@ -107,11 +107,10 @@ flutter {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.google.android.gms:play-services-ads:22.1.0'
-    //implementation 'com.stripe:stripe-android:20.23.1'
     implementation 'com.android.support:multidex:1.0.3'
-    //constraints { implementation('com.stripe:stripe-android') { version { strictly '20.23.1' } } }
-    //constraints { implementation('com.stripe:financial-connections') { version { strictly '20.23.1' } } }
     implementation platform('com.google.firebase:firebase-bom:33.4.0')
     implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth' 
 }
+
 
