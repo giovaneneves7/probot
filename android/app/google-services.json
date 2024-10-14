@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332159337800",
+    "project_id": "probot-1e8f1",
+    "storage_bucket": "probot-1e8f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332159337800:android:598ff3701a4d7adb2b9f7d",
+        "android_client_info": {
+          "package_name": "com.webiots.probotgpt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5oV6TGNRzWBzwS-FPukvoFaZoJy7H_rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
