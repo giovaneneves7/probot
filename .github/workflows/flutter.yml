@@ -32,12 +32,14 @@ jobs:
     - name: Install dependencies
       run: flutter pub get
 
+    - name: Clean Gradle cache
+      run: ./gradlew clean --no-daemon
+
     - name: Build APK
       run: flutter build apk --release --no-shrink
 
     - name: Upload build artifacts
-      uses: actions/upload-artifact@v3  # Atualizado para v3
+      uses: actions/upload-artifact@v3
       with:
         name: apk
         path: build/app/outputs/flutter-apk/app-release.apk
-
