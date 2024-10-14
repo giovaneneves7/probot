@@ -33,7 +33,7 @@ jobs:
       run: flutter pub get
 
     - name: Clean Gradle cache
-      run: ./gradlew clean --no-daemon
+      run: cd android && ./gradlew clean --no-daemon
 
     - name: Build APK
       run: flutter build apk --release --no-shrink
