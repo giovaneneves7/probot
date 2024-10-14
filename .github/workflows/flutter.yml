@@ -32,6 +32,9 @@ jobs:
     - name: Install dependencies
       run: flutter pub get
 
+    - name: Set permissions for gradlew
+      run: chmod +x android/gradlew  # Adiciona permissão de execução
+
     - name: Clean Gradle cache
       run: cd android && ./gradlew clean --no-daemon
 
